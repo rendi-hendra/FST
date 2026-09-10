@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="HIMSI Chatbot AI - Asisten virtual interaktif 24/7 seputar perkuliahan, KRS, SO, Dosen, Beasiswa, dan Organisasi Fasilkom Unsri.">
+  <title>HIMSI Chatbot AI | HIMSI FASILKOM UNSRI</title>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%231e40af'/><text x='50' y='60' font-size='32' font-weight='bold' fill='white' text-anchor='middle' font-family='sans-serif'>SI</text></svg>">
+</head>
+<body class="bg-layout">
+
+  <!-- Site Header -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="brand-logo">
+        <div class="logo-badge">SI</div>
+        <div class="logo-text-group">
+          <span class="logo-title">HIMSI UNSRI</span>
+          <span class="logo-subtitle">FASILKOM UNIVERSITAS SRIWIJAYA</span>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <div class="nav-item"><a href="index.html" class="nav-link">Beranda</a></div>
+        <div class="nav-item dropdown">
+          <a href="visi-misi.html" class="nav-link">
+            Tentang Kami
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="visi-misi.html" class="dropdown-item"><i class="fa-solid fa-bullseye"></i> Visi & Misi</a>
+            <a href="visi-misi.html#makna-logo" class="dropdown-item"><i class="fa-solid fa-shapes"></i> Makna Logo</a>
+            <a href="program-kerja.html" class="dropdown-item"><i class="fa-solid fa-calendar-check"></i> Program Kerja</a>
+          </div>
+        </div>
+        <div class="nav-item dropdown">
+          <a href="pengurus.html" class="nav-link">
+            Profil Organisasi
+            <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+          </a>
+          <div class="dropdown-menu">
+            <a href="pengurus.html#pengurus-inti" class="dropdown-item"><i class="fa-solid fa-crown"></i> Pengurus Inti</a>
+            <a href="pengurus.html#kastrad" class="dropdown-item"><i class="fa-solid fa-scale-balanced"></i> KASTRAD</a>
+            <a href="pengurus.html#ristek" class="dropdown-item"><i class="fa-solid fa-laptop-code"></i> RISTEK</a>
+            <a href="pengurus.html#bistra" class="dropdown-item"><i class="fa-solid fa-briefcase"></i> BISTRA</a>
+            <a href="pengurus.html#medinfo" class="dropdown-item"><i class="fa-solid fa-photo-film"></i> MEDINFO</a>
+            <a href="pengurus.html#psdm" class="dropdown-item"><i class="fa-solid fa-rocket"></i> PSDM</a>
+            <a href="pengurus.html#pmb" class="dropdown-item"><i class="fa-solid fa-trophy"></i> PMB</a>
+            <a href="pengurus.html#kestari" class="dropdown-item"><i class="fa-solid fa-folder-closed"></i> KESTARI</a>
+          </div>
+        </div>
+        <div class="nav-item"><a href="i-mahasiswa.html" class="nav-link">I-Mahasiswa</a></div>
+        <div class="nav-item"><a href="aspirasi.html" class="nav-link">Aspirasi</a></div>
+        <div class="nav-item"><a href="chatbot.html" class="nav-link active"><i class="fa-solid fa-robot" style="color:var(--himsi-blue-light);"></i> Chatbot AI</a></div>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/></svg>
+        </button>
+        <a href="i-mahasiswa.html" class="btn-explore">Portal Akademik</a>
+        <button class="mobile-menu-btn" aria-label="Menu Mobile">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-nav-drawer">
+      <div class="mobile-nav-list">
+        <a href="index.html" class="mobile-nav-link">Beranda</a>
+        <a href="visi-misi.html" class="mobile-nav-link">Tentang Kami (Visi & Misi)</a>
+        <a href="program-kerja.html" class="mobile-nav-link">Program Kerja</a>
+        <a href="pengurus.html" class="mobile-nav-link">Profil Pengurus</a>
+        <a href="i-mahasiswa.html" class="mobile-nav-link">Portal I-Mahasiswa</a>
+        <a href="aspirasi.html" class="mobile-nav-link">Kotak Aspirasi</a>
+        <a href="chatbot.html" class="mobile-nav-link active">HIMSI Chatbot AI</a>
+      </div>
+    </div>
+  </header>
+
+  <main style="padding: 2rem 0 4rem;">
+    <div class="container">
+      <div style="max-width: 900px; margin: 0 auto; background: var(--glass-bg); border: 1px solid var(--glass-border); backdrop-filter: blur(20px); border-radius: var(--radius-lg); overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.5);" data-reveal>
+        
+        <!-- Chat Header -->
+        <div style="padding: 1.25rem 1.75rem; background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--glass-border); display: flex; align-items: center; justify-content: space-between;">
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 44px; height: 44px; border-radius: 14px; background: linear-gradient(135deg, var(--himsi-blue), var(--himsi-red)); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 1.2rem;">
+              🤖
+            </div>
+            <div>
+              <h3 style="font-size: 1.1rem; font-weight: 800; color: #fff; margin-bottom: 0.1rem;">HIMSI Assistant AI 24/7</h3>
+              <p style="font-size: 0.78rem; color: #34D399; display: flex; align-items: center; gap: 0.4rem; margin: 0;">
+                <span style="width: 7px; height: 7px; background: #34D399; border-radius: 50%; display: inline-block;"></span> Online | Siap Membantu
+              </p>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 0.5rem;">
+            <button id="clearChatBtn" class="btn-glass" style="padding: 6px 14px; font-size: 0.8rem;">Reset Chat</button>
+          </div>
+        </div>
+
+        <!-- Chat Container -->
+        <div id="chatMessages" style="height: 480px; overflow-y: auto; padding: 1.75rem; display: flex; flex-direction: column; gap: 1.25rem;">
+          <!-- Welcome Message -->
+          <div style="display: flex; gap: 1rem; align-items: flex-start; max-width: 85%;">
+            <div style="width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--himsi-blue), var(--himsi-red)); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 0.95rem; flex-shrink: 0;">🤖</div>
+            <div style="background: rgba(255,255,255,0.06); border: 1px solid var(--glass-border); border-radius: 18px 18px 18px 4px; padding: 1rem 1.25rem; color: #fff; font-size: 0.92rem; line-height: 1.6;">
+              Halo! 👋 Saya <strong>HIMSI Assistant AI</strong>. Saya siap membantu memberikan informasi mengenai:
+              <ul style="margin: 0.6rem 0 0.4rem 1.2rem; display:flex; flex-direction:column; gap:0.25rem;">
+                <li>🎓 Panduan SIMAK & Pengisian KRS</li>
+                <li>⏸️ Prosedur Stop Out / Cuti Kuliah</li>
+                <li>👨‍🏫 Informasi Dosen SI & Pembimbing</li>
+                <li>🏆 Info Lomba, Beasiswa & Magang</li>
+                <li>👥 Kepengurusan & Proker HIMSI</li>
+              </ul>
+              Silakan ketik pertanyaan Anda atau klik topik di bawah ini!
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Prompts Pills -->
+        <div style="padding: 0.75rem 1.75rem; background: rgba(255,255,255,0.02); border-top: 1px solid var(--glass-border); display: flex; gap: 0.6rem; overflow-x: auto; scrollbar-width: none;">
+          <button class="quick-prompt-btn btn-glass" style="font-size:0.78rem; padding:6px 12px; flex-shrink:0;">Cara isi KRS SIMAK?</button>
+          <button class="quick-prompt-btn btn-glass" style="font-size:0.78rem; padding:6px 12px; flex-shrink:0;">Syarat Stop Out Fasilkom?</button>
+          <button class="quick-prompt-btn btn-glass" style="font-size:0.78rem; padding:6px 12px; flex-shrink:0;">Info Beasiswa Unsri?</button>
+          <button class="quick-prompt-btn btn-glass" style="font-size:0.78rem; padding:6px 12px; flex-shrink:0;">Siapa Ketua Umum HIMSI?</button>
+        </div>
+
+        <!-- Chat Input Form -->
+        <div style="padding: 1.25rem 1.75rem; background: rgba(255,255,255,0.03); border-top: 1px solid var(--glass-border);">
+          <form id="chatForm" style="display: flex; gap: 0.75rem;">
+            <input type="text" id="chatInput" placeholder="Tanyakan sesuatu seputar Unsri..." style="flex: 1; padding: 14px 20px; background: rgba(255,255,255,0.05); border: 1px solid var(--glass-border); border-radius: var(--radius-pill); color: #fff; font-size: 0.95rem; outline: none;" required>
+            <button type="submit" class="btn-explore" style="padding: 14px 28px;">
+              Kirim
+              <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="logo-badge">SI</div>
+            <div class="logo-text-group">
+              <span class="logo-title">HIMSI UNSRI</span>
+              <span class="logo-subtitle">FASILKOM UNIVERSITAS SRIWIJAYA</span>
+            </div>
+          </div>
+          <p>Himpunan Mahasiswa Sistem Informasi Fakultas Ilmu Komputer Universitas Sriwijaya.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/himsiunsri" class="social-icon-btn" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://tiktok.com/@himsiunsri" class="social-icon-btn" target="_blank" rel="noopener"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://youtube.com/@himsiunsri" class="social-icon-btn" target="_blank" rel="noopener"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://linkedin.com/company/himsiunsri" class="social-icon-btn" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Jelajahi</h4>
+          <div class="footer-links">
+            <a href="index.html">Beranda</a>
+            <a href="visi-misi.html">Tentang Kami</a>
+            <a href="program-kerja.html">Program Kerja</a>
+            <a href="pengurus.html">Profil Pengurus</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Layanan Akademik</h4>
+          <div class="footer-links">
+            <a href="i-mahasiswa.html">Portal I-Mahasiswa</a>
+            <a href="aspirasi.html">Kotak Aspirasi</a>
+            <a href="chatbot.html">HIMSI Chatbot AI</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Sekretariat</h4>
+          <div class="footer-contact-item">
+            <i class="fa-solid fa-location-dot" style="color:var(--himsi-blue-light);"></i>
+            <span>Gedung F Lantai 1 Ruang F1.2, Fasilkom Unsri Indralaya.</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 HIMSI FASILKOM UNSRI. Seluruh hak cipta dilindungi undang-undang.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/chatbot.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
