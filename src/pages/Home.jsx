@@ -128,11 +128,11 @@ export default function Home() {
               <p>Departemen Strategis</p>
             </div>
             <div className="hero-stat-item">
-              <h3>11</h3>
-              <p>Divisi Fungsional</p>
+              <h3>12</h3>
+              <p>Anggota</p>
             </div>
             <div className="hero-stat-item">
-              <h3>138</h3>
+              <h3>5</h3>
               <p>Badan Pengurus Harian</p>
             </div>
           </div>
