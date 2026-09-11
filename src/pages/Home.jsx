@@ -53,7 +53,7 @@ const recentActivities = [
     nama: "Sister School",
     deskripsi: "Bersama Dosen Rekayasa Perangkat Lunak",
     tanggal: "18 Juni 2026",
-    foto: "/proker/sister school bersama Dosen rekayasa perangkat lunak 18 juni 2026.HEIC",
+    foto: "/proker/IMG_7346.jpg",
     kategori: "Pendidikan"
   },
   {
@@ -61,7 +61,7 @@ const recentActivities = [
     nama: "Pelatihan Aplikasi Komputer",
     deskripsi: "Pelatihan Word, Excel, dan Mendeley",
     tanggal: "23 Mei 2026",
-    foto: "/proker/Pelatihan Aplikasi Komputer (Word,Exel,Mendeley) 23 mei 2026.HEIC",
+    foto: "/proker/IMG_2877.jpg",
     kategori: "Pelatihan"
   },
   {
